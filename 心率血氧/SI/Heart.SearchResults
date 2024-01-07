@@ -1,0 +1,9 @@
+---- uart1_rx Matches (15 in 2 files) ----
+Usart1_dma.c (system\usart):struct uart1_buffer uart1_rx,uart1_tx;
+Usart1_dma.c (system\usart):		uart1_rx.len = USART1_RX_Finish_IRQ(uart1_rx.buf);
+Usart1_dma.c (system\usart):	if(uart1_rx.len==10) 
+Usart1_dma.c (system\usart):		//Target_Left=(uart1_rx.buf[0]-48)*1000+(uart1_rx.buf[1]-48)*100+(uart1_rx.buf[2]-48)*10+(uart1_rx.buf[3]-48);
+Usart1_dma.c (system\usart):		//Target_Right=(uart1_rx.buf[4]-48)*1000+(uart1_rx.buf[5]-48)*100+(uart1_rx.buf[6]-48)*10+(uart1_rx.buf[7]-48);
+Usart1_dma.c (system\usart):		//uart1_rx.len=0;
+Usart1_dma.c (system\usart):	uart1_rx.len=0;
+Usart1_dma.h (system\usart):extern struct uart1_buffer uart1_rx,uart1_tx;
