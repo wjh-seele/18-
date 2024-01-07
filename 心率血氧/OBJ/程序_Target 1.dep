@@ -1,440 +1,0 @@
-Dependencies for Project '程序', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x658A9029)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
-I (struct_all.h)(0x657FF455)
-I (stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (system_stm32f10x.h)(0x657FF456)
-I (stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-I (..\SYSTEM\delay\delay.h)(0x657FF4B6)
-I (..\SYSTEM\sys\sys.h)(0x657FF4B8)
-I (..\SYSTEM\usart\usart1_dma.h)(0x657FF4B9)
-I (..\HARDWARE\MAX30102\algorithm.h)(0x657FF489)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
-I (..\HARDWARE\MAX30102\max30102.h)(0x657FF48A)
-I (..\HARDWARE\MAX30102\myiic.h)(0x657FF48C)
-I (..\HARDWARE\LCD1602\LCD1602.h)(0x657FF485)
-I (..\HARDWARE\GPIO\GPIO.h)(0x657FF483)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-F (.\stm32f10x_it.c)(0x658A8BC4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
-I (stm32f10x_it.h)(0x657FF455)
-I (stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (system_stm32f10x.h)(0x657FF456)
-I (stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-F (.\system_stm32f10x.c)(0x657FF456)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
-I (stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (system_stm32f10x.h)(0x657FF456)
-I (stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)()
-F (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)()
-F (..\FreeRTOS\include\task.h)(0x6373F225)()
-F (..\FreeRTOS\include\timers.h)(0x6373F225)()
-F (..\HARDWARE\TIMER\timer.c)(0x657FF490)()
-F (..\HARDWARE\CC2541\cc2541.c)(0x657FF479)()
-F (..\HARDWARE\MAX30102\myiic.c)(0x657FF48A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
-I (..\HARDWARE\MAX30102\myiic.h)(0x657FF48C)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\HARDWARE\MAX30102\algorithm.c)(0x657FF487)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\algorithm.o --omf_browse ..\obj\algorithm.crf --depend ..\obj\algorithm.d)
-I (..\HARDWARE\MAX30102\algorithm.h)(0x657FF489)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
-F (..\HARDWARE\MAX30102\max30102.c)(0x657FF489)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\max30102.o --omf_browse ..\obj\max30102.crf --depend ..\obj\max30102.d)
-I (..\HARDWARE\MAX30102\max30102.h)(0x657FF48A)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
-I (..\HARDWARE\MAX30102\myiic.h)(0x657FF48C)
-F (..\HARDWARE\LCD1602\LCD1602.c)(0x657FF484)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\lcd1602.o --omf_browse ..\obj\lcd1602.crf --depend ..\obj\lcd1602.d)
-I (..\HARDWARE\LCD1602\LCD1602.h)(0x657FF485)
-I (..\SYSTEM\delay\delay.h)(0x657FF4B6)
-I (..\SYSTEM\sys\sys.h)(0x657FF4B8)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\HARDWARE\GPIO\GPIO.c)(0x657FF47F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\gpio.o --omf_browse ..\obj\gpio.crf --depend ..\obj\gpio.d)
-I (..\HARDWARE\GPIO\GPIO.h)(0x657FF483)
-I (..\SYSTEM\sys\sys.h)(0x657FF4B8)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-I (..\SYSTEM\delay\delay.h)(0x657FF4B6)
-F (..\SYSTEM\sys\sys.c)(0x658A8B32)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
-I (..\SYSTEM\sys\sys.h)(0x657FF4B8)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\SYSTEM\usart\usart1_dma.c)(0x658A8B32)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart1_dma.o --omf_browse ..\obj\usart1_dma.crf --depend ..\obj\usart1_dma.d)
-I (..\SYSTEM\usart\usart1_dma.h)(0x657FF4B9)
-I (..\SYSTEM\sys\sys.h)(0x657FF4B8)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\string.h)(0x569DEA3A)
-F (..\SYSTEM\usart\usart2_dma.c)(0x657FF4BB)()
-F (..\SYSTEM\usart\usart3_dma.c)(0x657FF4BC)()
-F (..\SYSTEM\delay\delay.c)(0x658A8B88)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
-I (..\SYSTEM\delay\delay.h)(0x657FF4B6)
-I (..\SYSTEM\sys\sys.h)(0x657FF4B8)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\SYSTEM\delay\delay.h)(0x657FF4B6)()
-F (..\CORE\core_cm3.c)(0x657FF431)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-F (..\CORE\startup_stm32f10x_hd.s)(0x657FF42F)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"--pd "__UVISION_VERSION SETA 518" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
-F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x657FF4AD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x657FF4B0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x657FF4B4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\STM32F10x_FWLib\src\misc.c)(0x657FF4A4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x657FF4B3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x657FF4AA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x657FF4AB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x657FF499)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c)(0x657FF4AA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dbgmcu.o --omf_browse ..\obj\stm32f10x_dbgmcu.crf --depend ..\obj\stm32f10x_dbgmcu.d)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x657FF497)
-I (..\USER\stm32f10x.h)(0x657FF454)
-I (..\CORE\core_cm3.h)(0x657FF42F)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\USER\system_stm32f10x.h)(0x657FF456)
-I (..\USER\stm32f10x_conf.h)(0x657FF454)
-I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x657FF499)
-I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x657FF49C)
-I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x657FF49F)
-I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x657FF4A2)
-I (..\STM32F10x_FWLib\inc\misc.h)(0x657FF492)
-F (..\FreeRTOS\source\croutine.c)(0x6373F225)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\croutine.o --omf_browse ..\obj\croutine.crf --depend ..\obj\croutine.d)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-I (..\FreeRTOS\include\croutine.h)(0x6373F225)
-F (..\FreeRTOS\source\event_groups.c)(0x658A4416)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\event_groups.o --omf_browse ..\obj\event_groups.crf --depend ..\obj\event_groups.d)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-I (..\FreeRTOS\include\timers.h)(0x6373F225)
-I (..\FreeRTOS\include\event_groups.h)(0x6373F225)
-F (..\FreeRTOS\source\list.c)(0x6373F225)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\list.o --omf_browse ..\obj\list.crf --depend ..\obj\list.d)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-F (..\FreeRTOS\source\queue.c)(0x658A4409)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\queue.o --omf_browse ..\obj\queue.crf --depend ..\obj\queue.d)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\string.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-I (..\FreeRTOS\include\queue.h)(0x6373F225)
-F (..\FreeRTOS\source\stream_buffer.c)(0x6373F225)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stream_buffer.o --omf_browse ..\obj\stream_buffer.crf --depend ..\obj\stream_buffer.d)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\string.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-I (..\FreeRTOS\include\stream_buffer.h)(0x6373F225)
-F (..\FreeRTOS\source\tasks.c)(0x658A43D8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\tasks.o --omf_browse ..\obj\tasks.crf --depend ..\obj\tasks.d)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\string.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-I (..\FreeRTOS\include\timers.h)(0x6373F225)
-I (..\FreeRTOS\include\stack_macros.h)(0x6373F225)
-F (..\FreeRTOS\source\timers.c)(0x6373F225)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\timers.o --omf_browse ..\obj\timers.crf --depend ..\obj\timers.d)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-I (..\FreeRTOS\include\queue.h)(0x6373F225)
-I (..\FreeRTOS\include\timers.h)(0x6373F225)
-F (..\FreeRTOS\portable\MemMang\heap_4.c)(0x6373F225)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\heap_4.o --omf_browse ..\obj\heap_4.crf --depend ..\obj\heap_4.d)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\string.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
-F (..\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x6373F225)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\ENCODER -I ..\HARDWARE\MOTOR -I ..\HARDWARE\TIMER -I ..\HARDWARE\CC2541 -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\BEEP -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD1602 -I ..\HARDWARE\DS18B20 -I ..\HARDWARE\GPIO -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS\source -I ..\USER -I ..\FreeRTOS\include -I ..\USER -I ..\SYSTEM-I "C:\Users\Administrator\Desktop\18组\9 程序\心率血氧\USER\RTE"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "E:\Kile 5\kile\ARM\CMSIS\Include"-I "E:\Kile 5\kile\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1"-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\port.o --omf_browse ..\obj\port.crf --depend ..\obj\port.d)
-I (..\FreeRTOS\include\FreeRTOS.h)(0x658A4F82)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
-I (E:\Kile 5\kile\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x658A8A2D)
-I (..\FreeRTOS\include\projdefs.h)(0x6373F225)
-I (..\FreeRTOS\include\portable.h)(0x6373F225)
-I (..\FreeRTOS\include\deprecated_definitions.h)(0x6373F225)
-I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x6373F225)
-I (..\FreeRTOS\include\mpu_wrappers.h)(0x6373F225)
-I (..\FreeRTOS\include\task.h)(0x6373F225)
-I (..\FreeRTOS\include\list.h)(0x6373F225)
